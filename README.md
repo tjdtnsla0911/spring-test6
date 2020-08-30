@@ -4,13 +4,15 @@
 
 
 ```
-#######새로만든 Qnarecomment 입니다#########
+#새로만든 Qnarecomment 입니다
 create table  Qnarecomment(
 id int auto_increment primary key,
 qnaId int,
 qnaComment varchar(2000)
 )engine=InnoDB default charset=utf8;
 drop table Qnarecomment;
+
+#########################################3
 
 
 ```
