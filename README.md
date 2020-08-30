@@ -1,15 +1,16 @@
 ```
-대규모 공사중 건들지마시오.
-1차작업 20.08.27 21:00 끝
+내일 mysql 및 스프링 손도 봐야함
+그리고 새로운 테이블 추가댐
 
-2차작업(예상) 20.08.27 22:15~01:00 (이때 작업끝날확률 23%)
 
-3차작업(예상) 20.08.28 09:00~16:30 (이때 작업끝날확률 60%)
-
-4차작업(예상) 20.08.28 16:45~21:00 (이떄 작업끝날확률 99%)
-
-5차작업(예상) 20.08.28 21:00~~ 한강으로 (이때 까지못할확률 1%)무조
 ```
+#######새로만든 Qnarecomment 입니다#########
+create table  Qnarecomment(
+id int auto_increment primary key,
+qnaId int,
+qnaComment varchar(2000)
+)engine=InnoDB default charset=utf8;
+drop table Qnarecomment;
 
 
 ```
